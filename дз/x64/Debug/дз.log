@@ -1,0 +1,13 @@
+﻿  Students.cpp
+C:\Users\student\source\repos\дз\дз\Students.h(6): error C7528: 'Students': A default constructor or its exception specification cannot be used within a data member initializer of the same class
+C:\Users\student\source\repos\дз\дз\Students.h(6,21): error C3443: The default member initializer for 'Students::students' is recursive
+C:\Users\student\source\repos\дз\дз\Students.h(15,1): message : This diagnostic occurred in the compiler generated function 'Students::Students(void)'
+C:\Users\student\source\repos\дз\дз\Students.h(15,1): message : see reference to function 'Students::Students(void)'
+  Subject.cpp
+  дз.cpp
+C:\Users\student\source\repos\дз\дз\Students.h(6): error C7528: 'Students': A default constructor or its exception specification cannot be used within a data member initializer of the same class
+C:\Users\student\source\repos\дз\дз\Students.h(6,21): error C3443: The default member initializer for 'Students::students' is recursive
+C:\Users\student\source\repos\дз\дз\Students.h(15,1): message : This diagnostic occurred in the compiler generated function 'Students::Students(void)'
+C:\Users\student\source\repos\дз\дз\Students.h(15,1): message : see reference to function 'Students::Students(void)'
+C:\Users\student\source\repos\дз\дз\дз.cpp(6): fatal  error C1075: '{': no matching token found
+  Generating Code...

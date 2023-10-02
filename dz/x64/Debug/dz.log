@@ -1,0 +1,72 @@
+﻿  dz.cpp
+C:\Users\student\source\repos\dz\dz\Subject.h(5,9): error C3646: 'name': unknown override specifier
+C:\Users\student\source\repos\dz\dz\Subject.h(5,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\student\source\repos\dz\dz\Subject.h(6,10): error C2061: syntax error: identifier 'string'
+C:\Users\student\source\repos\dz\dz\Subject.h(10,9): error C3646: 'name': unknown override specifier
+C:\Users\student\source\repos\dz\dz\Subject.h(10,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\student\source\repos\dz\dz\Subject.h(7,10): error C2065: 'name': undeclared identifier
+C:\Users\student\source\repos\dz\dz\Subject.h(7,5): error C2614: 'Subject': illegal member initialization: 'name' is not a base or member
+C:\Users\student\source\repos\dz\dz\Student.h(6,9): error C3646: 'name': unknown override specifier
+C:\Users\student\source\repos\dz\dz\Student.h(6,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\student\source\repos\dz\dz\Student.h(8,10): error C2061: syntax error: identifier 'string'
+C:\Users\student\source\repos\dz\dz\Student.h(18,9): error C3646: 'name': unknown override specifier
+C:\Users\student\source\repos\dz\dz\Student.h(18,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\student\source\repos\dz\dz\Student.h(9,10): error C2065: 'name': undeclared identifier
+C:\Users\student\source\repos\dz\dz\Student.h(9,5): error C2614: 'Student': illegal member initialization: 'name' is not a base or member
+C:\Users\student\source\repos\dz\dz\dz.cpp(7,18): error C2665: 'Student::Student': no overloaded function could convert all the argument types
+C:\Users\student\source\repos\dz\dz\Student.h(21,1): message : could be 'Student::Student(Student &&)'
+C:\Users\student\source\repos\dz\dz\dz.cpp(7,18): message : 'Student::Student(Student &&)': cannot convert argument 1 from 'const char [10]' to 'Student &&'
+C:\Users\student\source\repos\dz\dz\dz.cpp(7,19): message : Reason: cannot convert from 'const char [10]' to 'Student'
+C:\Users\student\source\repos\dz\dz\dz.cpp(7,19): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\student\source\repos\dz\dz\Student.h(21,1): message : or       'Student::Student(const Student &)'
+C:\Users\student\source\repos\dz\dz\dz.cpp(7,18): message : 'Student::Student(const Student &)': cannot convert argument 1 from 'const char [10]' to 'const Student &'
+C:\Users\student\source\repos\dz\dz\dz.cpp(7,19): message : Reason: cannot convert from 'const char [10]' to 'const Student'
+C:\Users\student\source\repos\dz\dz\dz.cpp(7,19): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\student\source\repos\dz\dz\dz.cpp(7,18): message : while trying to match the argument list '(const char [10])'
+C:\Users\student\source\repos\dz\dz\dz.cpp(8,18): error C2665: 'Student::Student': no overloaded function could convert all the argument types
+C:\Users\student\source\repos\dz\dz\Student.h(21,1): message : could be 'Student::Student(Student &&)'
+C:\Users\student\source\repos\dz\dz\dz.cpp(8,18): message : 'Student::Student(Student &&)': cannot convert argument 1 from 'const char [10]' to 'Student &&'
+C:\Users\student\source\repos\dz\dz\dz.cpp(8,19): message : Reason: cannot convert from 'const char [10]' to 'Student'
+C:\Users\student\source\repos\dz\dz\dz.cpp(8,19): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\student\source\repos\dz\dz\Student.h(21,1): message : or       'Student::Student(const Student &)'
+C:\Users\student\source\repos\dz\dz\dz.cpp(8,18): message : 'Student::Student(const Student &)': cannot convert argument 1 from 'const char [10]' to 'const Student &'
+C:\Users\student\source\repos\dz\dz\dz.cpp(8,19): message : Reason: cannot convert from 'const char [10]' to 'const Student'
+C:\Users\student\source\repos\dz\dz\dz.cpp(8,19): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\student\source\repos\dz\dz\dz.cpp(8,18): message : while trying to match the argument list '(const char [10])'
+C:\Users\student\source\repos\dz\dz\dz.cpp(9,18): error C2665: 'Subject::Subject': no overloaded function could convert all the argument types
+C:\Users\student\source\repos\dz\dz\Subject.h(12,1): message : could be 'Subject::Subject(Subject &&)'
+C:\Users\student\source\repos\dz\dz\dz.cpp(9,18): message : 'Subject::Subject(Subject &&)': cannot convert argument 1 from 'const char [10]' to 'Subject &&'
+C:\Users\student\source\repos\dz\dz\dz.cpp(9,19): message : Reason: cannot convert from 'const char [10]' to 'Subject'
+C:\Users\student\source\repos\dz\dz\dz.cpp(9,19): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\student\source\repos\dz\dz\Subject.h(12,1): message : or       'Subject::Subject(const Subject &)'
+C:\Users\student\source\repos\dz\dz\dz.cpp(9,18): message : 'Subject::Subject(const Subject &)': cannot convert argument 1 from 'const char [10]' to 'const Subject &'
+C:\Users\student\source\repos\dz\dz\dz.cpp(9,19): message : Reason: cannot convert from 'const char [10]' to 'const Subject'
+C:\Users\student\source\repos\dz\dz\dz.cpp(9,19): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\student\source\repos\dz\dz\dz.cpp(9,18): message : while trying to match the argument list '(const char [10])'
+C:\Users\student\source\repos\dz\dz\dz.cpp(10,18): error C2665: 'Subject::Subject': no overloaded function could convert all the argument types
+C:\Users\student\source\repos\dz\dz\Subject.h(12,1): message : could be 'Subject::Subject(Subject &&)'
+C:\Users\student\source\repos\dz\dz\dz.cpp(10,18): message : 'Subject::Subject(Subject &&)': cannot convert argument 1 from 'const char [10]' to 'Subject &&'
+C:\Users\student\source\repos\dz\dz\dz.cpp(10,19): message : Reason: cannot convert from 'const char [10]' to 'Subject'
+C:\Users\student\source\repos\dz\dz\dz.cpp(10,19): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\student\source\repos\dz\dz\Subject.h(12,1): message : or       'Subject::Subject(const Subject &)'
+C:\Users\student\source\repos\dz\dz\dz.cpp(10,18): message : 'Subject::Subject(const Subject &)': cannot convert argument 1 from 'const char [10]' to 'const Subject &'
+C:\Users\student\source\repos\dz\dz\dz.cpp(10,19): message : Reason: cannot convert from 'const char [10]' to 'const Subject'
+C:\Users\student\source\repos\dz\dz\dz.cpp(10,19): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\student\source\repos\dz\dz\dz.cpp(10,18): message : while trying to match the argument list '(const char [10])'
+  Student.cpp
+C:\Users\student\source\repos\dz\dz\Student.h(6,9): error C3646: 'name': unknown override specifier
+C:\Users\student\source\repos\dz\dz\Student.h(6,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\student\source\repos\dz\dz\Student.h(8,10): error C2061: syntax error: identifier 'string'
+C:\Users\student\source\repos\dz\dz\Student.h(18,9): error C3646: 'name': unknown override specifier
+C:\Users\student\source\repos\dz\dz\Student.h(18,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\student\source\repos\dz\dz\Student.h(9,10): error C2065: 'name': undeclared identifier
+C:\Users\student\source\repos\dz\dz\Student.h(9,5): error C2614: 'Student': illegal member initialization: 'name' is not a base or member
+  Subject.cpp
+C:\Users\student\source\repos\dz\dz\Subject.h(5,9): error C3646: 'name': unknown override specifier
+C:\Users\student\source\repos\dz\dz\Subject.h(5,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\student\source\repos\dz\dz\Subject.h(6,10): error C2061: syntax error: identifier 'string'
+C:\Users\student\source\repos\dz\dz\Subject.h(10,9): error C3646: 'name': unknown override specifier
+C:\Users\student\source\repos\dz\dz\Subject.h(10,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\student\source\repos\dz\dz\Subject.h(7,10): error C2065: 'name': undeclared identifier
+C:\Users\student\source\repos\dz\dz\Subject.h(7,5): error C2614: 'Subject': illegal member initialization: 'name' is not a base or member
+  Generating Code...

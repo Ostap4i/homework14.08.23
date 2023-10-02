@@ -1,0 +1,11 @@
+﻿  18ю09ю23.cpp
+  Airport.cpp
+C:\Users\student\source\repos\18ю09ю23\18ю09ю23\Airport.cpp(1,10): fatal  error C1083: Cannot open include file: 'Airport.h': No such file or directory
+  Cargo.cpp
+C:\Users\student\source\repos\18ю09ю23\18ю09ю23\Cargo.h(16,9): error C2086: 'std::string Cargo::cargo': redefinition
+  Military.cpp
+C:\Users\student\source\repos\18ю09ю23\18ю09ю23\Military.h(18,9): error C2086: 'std::string Military::military': redefinition
+  Passengers.cpp
+C:\Users\student\source\repos\18ю09ю23\18ю09ю23\Passengers.h(15,9): error C2086: 'std::string Passengers::passengers': redefinition
+  Plane.cpp
+  Generating Code...
